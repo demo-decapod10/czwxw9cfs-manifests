@@ -21,7 +21,7 @@ spec:
           nodePort: 30001
           port: 5601
           targetPort: 5601
-        type: LoadBalancer
+        type: NodePort
     tls:
       selfSignedCertificate:
         disabled: true
